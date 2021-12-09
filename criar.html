@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripiton" content="RachAki">
+    <meta name="keywords" content="RachAki">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/estilo.css">
+    <link rel="stylesheet" href="../style/form.css">
+    <title>Rachaki - Crie uma partida</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container"></div>
+            <h1><a href="./index.html">RachAki</a></h1>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a class="pagina-atual" href="./criar.html">Criar</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="game-form">
+            <input type="text" id="game-name" placeholder="Nome do jogo" required />
+            <input type="text" id="game-category" placeholder="Categoria" required />
+            <input type="number" id="game-quantity" placeholder="Quantidade" />
+            <input type="text" id="game-data" placeholder="Data" required />
+            <input type="time" id="game-hour" placeholder="Hora" required />
+            <input type="url" id="game-url" placeholder="link do grupo" required />
+            <input type="text" id="game-adress" placeholder="Endereço" required />
+            <button type="submit" id="game-button">Criar</button>
+        </form>
+    </main>
+
+    <footer id=rodape>
+        <p>RachAki &copy;2021-todos os direitos reservados</p>
+    </footer>
+
+    <script src="../scripts/index.js"></script>
+    <script src="../scripts/db.js"></script>
+</body>
+
+</html>
