@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: linear-gradient(to top, #0145ac, #82c7a5);
+  color: black;
+  font-family: arial;
+}
+
+#navbar {
+  background: #333;
+  color: #0145ac;
+  overflow: auto;
+}
+
+#navbar a {
+  color: white;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.pagina-atual {
+  background: #444;
+  color: #f7c08a;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding-bottom: 0 20px;
+}
+
+div#corpo-form {
+  width: 420px;
+  margin: 130px auto 0px auto;
+}
+
+div#corpo-form h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+}
+
+#rodape {
+  background: #444;
+  color: #fff;
+  text-align: center;
+  margin-top: 4.4%;
+  padding: 30px;
+}
+
+#subtitulo2 {
+  text-align: center;
+}
+
+#quantidade {
+  display: block;
+  height: 55px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 30px;
+  border: 1px solid black;
+  font-size: 16pt;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.01);
+  color: black;
+  outline: none;
+  cursor: pointer;
+}

@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.3em;
+  background: linear-gradient(to top, #0145ac, #82c7a5);
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+  color: white;
+}
+
+.pad1-y {
+  padding: 10px 0;
+}
+
+.pad2-y {
+  padding: 20px 0;
+}
+
+.pad3-y {
+  padding: 30px 0;
+}
+
+#navbar {
+  background: #333;
+  color: #0145ac;
+  overflow: auto;
+}
+
+#navbar a {
+  color: white;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.pagina-atual {
+  background: #444;
+  color: #f7c08a;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding-bottom: 0 20px;
+}
+
+#showcase {
+  margin-bottom: 5rem;
+}
+
+#showcase .showcase-principal {
+  color: #0145ac;
+  text-align: center;
+  padding: top 170px;
+}
+
+#showcase .showcase-principal h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+.texto-principal {
+  color: #0145ac;
+}
+
+.texto-detalhe {
+  font-size: 20px;
+}
+
+#showcase .showcase-principal p {
+  padding-bottom: 20px;
+  line-height-step: 1.7em;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background-color: #333;
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f7c08a;
+  color: #333;
+}
+
+.btn-claro {
+  background: #f4f4f4;
+  color: #333;
+}
+
+#info-principal {
+  height: 400px;
+}
+
+#info-principal .info-imagem {
+  float: left;
+  width: 100px;
+  background: url('../images/logo_size_400.jpg') no-repeat;
+  min-height: 100%;
+  min-width: 50%;
+}
+
+#info-principal .info-conteudo {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.bg-escuro {
+  background: #333;
+  color: #fff;
+}
+
+.box {
+  float: left;
+  width: 33.333%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+.bg-claro {
+  background: #82c7a5;
+  color: #333;
+}
+
+.bg-principal {
+  background: #0145ac;
+  color: #333;
+}
+
+#rodape {
+  background: #444;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+.clr {
+  clear: both;
+}
+
+#info-sobre {
+  background-image: url(#);
+}
+
+#info-sobre .info-esquerda {
+  float: left;
+  width: 50%;
+  min-height: 70%;
+}
+
+#info-sobre .info-direita {
+  float: right;
+  width: 50%;
+  min-height: 70%;
+}
+
+#info-sobre .info-direita img {
+  display: block;
+  margin: auto;
+  width: 60%;
+  border-radius: 50%;
+}
+
+.cabecalho-reviews {
+  font-size: 30px;
+}
+
+#reviews {
+  height: 600px;
+  padding-top: 40px;
+}
+
+#reviews h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#reviews .review {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#reviews .review img {
+  width: 70px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.cabecalho-form {
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+}
+
+#form-contato {
+  margin: 20px 20px;
+}
+
+#form-contato p {
+  text-align: center;
+}
+
+#form-contato label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#form-contato input,
+#form-contato textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#form-contato textarea {
+  height: 100px;
+}
+
+#form-contato input focus,
+#form-contato textarea :focus {
+  outline: none;
+  color: #f7c08a;
+}
+
+.classe1 {
+  background: blue;
+}
